@@ -1,4 +1,7 @@
 public class Variablefun {
+    /*
+    This is the entry point to main application
+     */
     public static void main(String[] args) {
         int age;
         age=30;
@@ -8,6 +11,6 @@ public class Variablefun {
         float pie1=3.14f;
         System.out.println(name + " is " + age);
         System.out.println(hometown);
-        System.out.println(pie+pie1);
+        System.out.println(pie+pie1);//adding  2 variables
     }
 }
