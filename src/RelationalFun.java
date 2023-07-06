@@ -8,6 +8,9 @@ public class RelationalFun {
         int yourage = 40;
         int bobsage = 23;
 
+        String Myname  = "mano";
+        String yourname = "mano";
+
         System.out.println("myage =" + myage);
         System.out.println("your age =" + yourage);
         System.out.println("bobsage = " + bobsage);
@@ -19,5 +22,8 @@ public class RelationalFun {
         System.out.println("myage == bobsage;?" + ageComparision);
         ageComparision = yourage <= bobsage;
         System.out.println("yourage <= bobsage:?" +ageComparision);
+        ageComparision = Myname == yourname;
+        System.out.println("do name matches>?" + ageComparision);
+
     }//end main
 }
