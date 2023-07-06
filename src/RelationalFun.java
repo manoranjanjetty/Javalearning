@@ -10,6 +10,7 @@ public class RelationalFun {
 
         String Myname  = "mano";
         String yourname = "mano";
+        int currentage = 29;
 
         System.out.println("myage =" + myage);
         System.out.println("your age =" + yourage);
@@ -24,6 +25,7 @@ public class RelationalFun {
         System.out.println("yourage <= bobsage:?" +ageComparision);
         ageComparision = Myname == yourname;
         System.out.println("do name matches>?" + ageComparision);
-
+        ageComparision = currentage >= 21;
+        System.out.println("does current age is equal to 21:?" + ageComparision);
     }//end main
 }
