@@ -7,6 +7,7 @@ public class project_avgof3 {
         realnumbers = keyboard.nextDouble();
         double realnumbers1 = keyboard.nextDouble();
         double realnumbers3 = keyboard.nextDouble();
+        //providing extra space
         keyboard.nextLine();
         double result = (realnumbers + realnumbers1 + realnumbers3)/3;
         System.out.println("The average of 3 real numbers is " + result);
